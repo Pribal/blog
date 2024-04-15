@@ -1,0 +1,44 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+:root {
+  --ifm-color-primary: #004ac2;
+  --ifm-color-primary-dark: #0043af;
+  --ifm-color-primary-darker: #003fa5;
+  --ifm-color-primary-darkest: #003488;
+  --ifm-color-primary-light: #0051d5;
+  --ifm-color-primary-lighter: #0055df;
+  --ifm-color-primary-lightest: #0060fc;
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+}
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+[data-theme='dark'] {
+  --ifm-color-primary: #adcdff;
+  --ifm-color-primary-dark: #82b3ff;
+  --ifm-color-primary-darker: #6da6ff;
+  --ifm-color-primary-darkest: #2d7fff;
+  --ifm-color-primary-light: #d8e7ff;
+  --ifm-color-primary-lighter: #edf4ff;
+  --ifm-color-primary-lightest: #ffffff;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+html[data-theme='light'] .navbar__logo {
+  content: url("/static/logos/logo_noir.png");
+}
+
+html[data-theme='dark'] .navbar__logo {
+  content: url("/static/logos/logo_blanc.png");
+}
+
+.footer__col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
