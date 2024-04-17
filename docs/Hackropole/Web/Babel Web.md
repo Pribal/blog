@@ -11,15 +11,13 @@ Ce challenge faisait partie du FCSF 2020. Il est noté comme difficulté **Intro
 
 ## Installation
 
-La plateforme Hackropole met la plupart de ses challenges à disposition grâce a Docker.
-
-Téléchargez simplement le _docker-compose.yml_ sur leur site ou alors via la commande:
+Téléchargez le _docker-compose.yml_ sur leur site ou alors via la commande:
 
 ```bash
 curl https://hackropole.fr/challenges/fcsc2020-web-babel-web/docker-compose.public.yml -o docker-compose.yml
 ```
 
-Lancez le challenge en exécutant cette commande dans le répertoire où se trouve le fichier téléchargé:
+Lancez le challenge en exécutant la commande:
 
 ```docker
 docker compose up
@@ -41,7 +39,6 @@ Nous allons alors regarder dans la console développeur si des éléments ne nou
 ![console developpeur indice1](/img/Babel_web/comment)
 
 On y voit alors un commentaire comprenant un lien nommé **source** en commentaire.
-Cela est intrigant, car s'il on cache quelque chose, c'est que cette chose est importante.
 
 Pour voir ce lien caché, on modifie alors l'URL du challenge en rajoutant "**?source=1**" à la fin de celui-ci.
 
