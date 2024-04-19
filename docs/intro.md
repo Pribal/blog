@@ -1,9 +1,9 @@
 ---
 sidebar_position: 1
-title: ⚠️ Walkthrought ⚠️
+title: Introduction
 ---
 
-# Bienvenue
+## Bienvenue
 
 Vous retrouverez ici toutes les procédures pas-à-pas des différents capture the flags réalisés.
 
